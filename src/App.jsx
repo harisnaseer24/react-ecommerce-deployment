@@ -17,11 +17,6 @@ import AddProduct from "./pages/AddProduct";
 
 function App() {
 
-
-
-
-
-  
   return (
     
     <>
