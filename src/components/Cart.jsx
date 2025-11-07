@@ -1,5 +1,5 @@
 import React from "react";
-import { useCart } from "./cartContext";
+import { useCart } from "./CartContext";
 
 const Cart = () => {
   const { cart, updateQuantity, removeFromCart } = useCart();
@@ -78,5 +78,6 @@ const Cart = () => {
     </div>
   );
 };
+
 
 export default Cart; 
