@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { products } from "./Products";
-import { useCart } from "./cartContext";
+import { useCart } from "./CartContext";
 import { useWishlist } from "./WishlistContext";
 
 const relatedItems = [
@@ -151,3 +151,4 @@ const ProductDetails = () => {
 };
 
 export default ProductDetails;
+
