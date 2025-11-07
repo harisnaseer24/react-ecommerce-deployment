@@ -1,7 +1,7 @@
 // src/components/Navbar.jsx
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { useCart } from "./cartContext";
+import { useCart } from "./CartContext";
 import { useWishlist } from "./WishlistContext";
 
 const Navbar = () => {
@@ -100,3 +100,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
